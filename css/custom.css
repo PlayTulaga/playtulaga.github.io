@@ -1,12 +1,78 @@
-.subtle {
-  color: #999;
+/*
+  eggshell      : #F4F1DE
+  terra cotta   : #E07A5F
+  independence  : #3D405B
+  green sheen   : #81B29A
+  deep champagne: #F2CC8F 
+*/
+
+.eggshell {
+  color: #f4f1de;
+}
+.terracotta {
+  color: #e07a5f;
+}
+.independence {
+  color: #3d405b;
+}
+.greensheen {
+  color: #81b29a;
+}
+.champagne {
+  color: #f2cc8f;
 }
 
-.bolder {
-  color: #333;
+html {
+  background-color: #f4f1de;
+  padding-top: 2rem;
+}
+body {
+  color: #3d405b;
+}
+
+section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  margin-top: 3rem;
 }
 
 .cozy {
   margin-bottom: 0.5rem;
+}
+
+.indented {
+  padding-left: 3rem;
+}
+
+h1 {
+  /* color: #3d405b; */
+  /* font-weight: bold; */
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
   margin-bottom: 0.5rem;
+  color: #e07a5f;
+}
+
+.normal {
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+
+a {
+  color: #e07a5f;
+}
+
+.subtitle {
+  font-size: 3.6rem;
 }
